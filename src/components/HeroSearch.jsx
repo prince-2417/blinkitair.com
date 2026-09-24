@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlane, faCalendar, faUsers, faPhone, faShieldHalved, faWandMagicSparkles, faMapMarkerAlt, faMagnifyingGlass, faHotel, faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons';
 
@@ -12,9 +13,11 @@ export default function HeroSearch() {
   const [travelers, setTravelers] = useState('2 Adults');
   const [cabinClass, setCabinClass] = useState('Economy');
 
+  const navigate = useNavigate();
+
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    window.location.href = `/flights?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`;
+    navigate(`/flights?origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}`);
   };
 
   return (
