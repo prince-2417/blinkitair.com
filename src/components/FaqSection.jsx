@@ -10,8 +10,8 @@ export default function FaqSection() {
       answer: "Enter your departure airport and preferred travel dates in our live search box above. Our smart fare engine compares over 500 airlines instantly to present the best published rates alongside exclusive phone-only agent discounts."
     },
     {
-      question: "What is the best time to book cheap flights and holiday packages?",
-      answer: "Booking 6 to 8 weeks in advance often yields the lowest rates. Flexible dates and midweek departures can also help you find better flight and hotel bundle prices."
+      question: "What is the best time to book cheap flights?",
+      answer: "Booking 6 to 8 weeks in advance often yields the lowest rates. Flexible dates and midweek departures can also help you find better flight prices."
     },
     {
       question: "Are taxes and fees included in the displayed flight prices?",
@@ -23,7 +23,7 @@ export default function FaqSection() {
     },
     {
       question: "Do you offer customer support for phone bookings?",
-      answer: "Absolutely! Our travel experts are available 24/7 at +x-xxx-xxx-xxxx and +x-xxx-xxx-xxxx to help with flight options, holiday packages and booking requests."
+      answer: "Absolutely! Our travel experts are available 24/7 at +x-xxx-xxx-xxxx and +x-xxx-xxx-xxxx to help with flight options and booking requests."
     }
   ];
 
@@ -44,7 +44,7 @@ export default function FaqSection() {
             Frequently Asked <span className="text-[#7E22CE]">Questions</span>
           </h2>
           <p className="text-black text-base font-semibold">
-            Everything you need to know about booking flights, hotel packages, and travel support.
+            Everything you need to know about booking flights and travel support.
           </p>
         </div>
 

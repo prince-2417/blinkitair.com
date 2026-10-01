@@ -134,7 +134,7 @@ export default function Blogs() {
           </div>
           <h2 className="text-2xl font-black text-[#4C1D95]">Subscribe to Weekly Travel Updates</h2>
           <p className="text-xs sm:text-sm text-[#581C87] max-w-lg mx-auto font-medium">
-            Get flight sale alerts, secret resort deals, and updated travel guides delivered straight to your inbox.
+            Get flight sale alerts and updated travel guides delivered straight to your inbox.
           </p>
 
           <form onSubmit={(e) => { e.preventDefault(); alert('Subscribed to Blinkit Air travel updates!'); }} className="max-w-md mx-auto flex gap-2 pt-2">

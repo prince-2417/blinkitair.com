@@ -22,7 +22,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-black text-xs leading-relaxed max-w-sm font-medium">
-              Your place to explore flight deals, holiday packages, hotel stays and 24/7 travel assistance. Book with confidence through Blinkit Air.
+              Your place to explore flight deals, car rentals and 24/7 travel assistance. Book with confidence through Blinkit Air.
             </p>
 
             <div className="space-y-2 pt-2 text-xs font-semibold text-[#4C1D95]">
@@ -50,7 +50,6 @@ export default function Footer() {
             <h4 className="text-[#4C1D95] font-extrabold text-sm tracking-wider uppercase">Quick Links</h4>
             <ul className="space-y-2 text-xs font-semibold">
               <li><Link to="/flights" className="text-black hover:text-[#2563EB] transition-colors">Flight Deals & Search</Link></li>
-              <li><Link to="/packages" className="text-black hover:text-[#2563EB] transition-colors">Holiday Packages</Link></li>
               <li><Link to="/car-rentals" className="text-black hover:text-[#2563EB] transition-colors">Car Rentals</Link></li>
               <li><Link to="/airlines" className="text-black hover:text-[#2563EB] transition-colors">Partner Airlines</Link></li>
               <li><Link to="/destinations" className="text-black hover:text-[#2563EB] transition-colors">Destinations</Link></li>

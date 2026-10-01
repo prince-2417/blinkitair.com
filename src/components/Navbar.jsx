@@ -17,7 +17,7 @@ export default function Navbar() {
             <span className="bg-[#2563EB] text-white text-[10px] font-black px-2.5 py-0.5 rounded-full flex items-center gap-1 shadow-sm">
               <Sparkles className="w-3 h-3 text-white" /> EXCLUSIVE DEALS
             </span>
-            <p className="text-black hidden sm:inline font-bold">Save up to 35% on international flights & resort packages!</p>
+            <p className="text-black hidden sm:inline font-bold">Save up to 35% on international flights!</p>
           </div>
           <div className="flex items-center gap-4">
             <a href="tel:+x-xxx-xxx-xxxx" className="flex items-center gap-1.5 text-[#2563EB] font-black hover:text-[#4C1D95] transition-colors">
@@ -47,7 +47,7 @@ export default function Navbar() {
                 Blinkit<span className="text-[#2563EB]">Air</span>
               </span>
               <span className="block text-[10px] font-bold text-[#2563EB] uppercase tracking-widest -mt-1">
-                Flights, Hotels & Holidays
+                Flights & Car Rentals
               </span>
             </div>
           </Link>

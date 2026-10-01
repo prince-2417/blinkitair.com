@@ -6,14 +6,14 @@ export default function ValueProps() {
     {
       icon: <Shield className="w-8 h-8 text-[#2563EB]" />,
       tag: "Best Price Guarantee",
-      title: "Lowest Flight & Resort Fares",
-      desc: "Compare hundreds of airline ticket deals and resort package discounts with zero hidden booking charges."
+      title: "Lowest Flight Fares",
+      desc: "Compare hundreds of airline ticket deals with zero hidden booking charges."
     },
     {
       icon: <Sparkles className="w-8 h-8 text-[#2563EB]" />,
       tag: "Exclusive Agent Deals",
       title: "Unpublished Fare Discounts",
-      desc: "Access phone-only unpublished airline seat inventory and resort upgrades not found on public booking sites."
+      desc: "Access phone-only unpublished airline seat inventory not found on public booking sites."
     },
     {
       icon: <Clock className="w-8 h-8 text-[#2563EB]" />,
@@ -34,7 +34,7 @@ export default function ValueProps() {
             <span>Why Travelers Choose Blinkit Air</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-[#2563EB] tracking-tight">
-            Book Flights & Packages with <span className="text-[#2563EB]">Absolute Confidence</span>
+            Book Flights with <span className="text-[#2563EB]">Absolute Confidence</span>
           </h2>
           <p className="text-black text-base font-semibold">
             Dedicated service, transparent pricing, and 24/7 phone assistance for smoother travel planning.

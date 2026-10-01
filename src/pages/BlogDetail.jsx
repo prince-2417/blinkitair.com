@@ -62,7 +62,7 @@ export default function BlogDetail() {
             <div className="space-y-1 text-center sm:text-left">
               <span className="text-xs font-bold text-[#7E22CE] uppercase">Planning Your Trip?</span>
               <h3 className="text-lg font-black text-[#4C1D95]">Call Blinkit Air Travel Desk 24/7</h3>
-              <p className="text-xs text-[#581C87]">Get exclusive flight & hotel packages calculated by our specialists.</p>
+              <p className="text-xs text-[#581C87]">Get exclusive flight options calculated by our specialists.</p>
             </div>
             <a 
               href="tel:+x-xxx-xxx-xxxx" 

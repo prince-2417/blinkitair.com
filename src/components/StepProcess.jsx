@@ -6,7 +6,7 @@ export default function StepProcess() {
     {
       num: "01",
       title: "Search & Compare",
-      desc: "Enter your destination and dates in our live fare search engine or browse our recommended resort packages.",
+      desc: "Enter your destination and dates in our live fare search engine to find suitable flight options.",
       icon: <Search className="w-6 h-6 text-[#2563EB]" />
     },
     {
@@ -18,7 +18,7 @@ export default function StepProcess() {
     {
       num: "03",
       title: "Instant Ticket Issuance",
-      desc: "Receive your official airline e-tickets, hotel booking vouchers, and 24/7 travel itinerary support directly.",
+      desc: "Receive your official airline e-tickets, car-rental confirmations, and 24/7 travel itinerary support directly.",
       icon: <CheckCircle className="w-6 h-6 text-[#2563EB]" />
     }
   ];
@@ -33,7 +33,7 @@ export default function StepProcess() {
             <span>Simple 3-Step Process</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-[#2563EB] tracking-tight">
-            How to Book Your <span className="text-[#2563EB]">Dream Vacation</span>
+            How to Book Your <span className="text-[#2563EB]">Next Flight</span>
           </h2>
           <p className="text-black text-base font-semibold">
             From search to instant confirmation, our travel team handles every detail seamlessly.

@@ -3,7 +3,7 @@ import HeroSearch from '../components/HeroSearch';
 import ValueProps from '../components/ValueProps';
 import FeaturesBar from '../components/FeaturesBar';
 import CarRentals from '../components/CarRentals';
-import HolidayPackages from '../components/HolidayPackages';
+import FlightBenefits from '../components/FlightBenefits';
 import StepProcess from '../components/StepProcess';
 import TravelGuides from '../components/TravelGuides';
 import FaqSection from '../components/FaqSection';
@@ -16,7 +16,7 @@ export default function Home() {
       <ValueProps />
       <FeaturesBar />
       <CarRentals />
-      <HolidayPackages />
+      <FlightBenefits />
       <StepProcess />
       <TravelGuides />
       <FaqSection />

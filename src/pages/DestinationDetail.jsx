@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { DESTINATIONS, HOTELS } from '../data/mockData';
+import { DESTINATIONS } from '../data/mockData';
 import { MapPin, Phone, Calendar, Compass, ArrowLeft, Star, CheckCircle, Send, Sparkles } from 'lucide-react';
 
 export default function DestinationDetail() {
@@ -9,7 +9,6 @@ export default function DestinationDetail() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', travelDate: '', guests: '2' });
 
   const dest = DESTINATIONS.find(d => d.id === id) || DESTINATIONS[0];
-  const relatedResorts = HOTELS.slice(0, 2);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -96,31 +95,6 @@ export default function DestinationDetail() {
             </div>
           </div>
 
-          {/* Recommended Stays & Resorts */}
-          <div className="space-y-6">
-            <h2 className="text-2xl font-black text-[#4C1D95]">Recommended Resorts on {dest.name}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {relatedResorts.map((hotel) => (
-                <div key={hotel.id} className="bg-white rounded-3xl overflow-hidden shadow-md border border-[#C084FC]/30 flex flex-col justify-between">
-                  <div className="h-44 overflow-hidden relative">
-                    <img src={hotel.image} alt={hotel.name} className="w-full h-full object-cover" />
-                    <span className="absolute top-3 left-3 bg-[#7E22CE] text-white text-[10px] font-black px-2.5 py-1 rounded-full shadow-sm">
-                      {hotel.stars}
-                    </span>
-                  </div>
-                  <div className="p-5 space-y-2">
-                    <h3 className="font-extrabold text-[#4C1D95] text-base">{hotel.name}</h3>
-                    <p className="text-xs text-gray-500">{hotel.location}</p>
-                    <div className="flex items-center justify-between pt-2 text-xs">
-                      <span className="font-black text-[#7E22CE] text-sm">${hotel.pricePerNight} / night</span>
-                      <a href="tel:+x-xxx-xxx-xxxx" className="bg-[#7E22CE] text-white font-bold px-3 py-1.5 rounded-xl hover:bg-[#581C87] transition-all">Book Fare</a>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
         </div>
 
         {/* Right Sidebar: Booking Inquiry & Helpline */}
@@ -131,7 +105,7 @@ export default function DestinationDetail() {
             <div className="w-12 h-12 bg-[#7E22CE] text-white rounded-full flex items-center justify-center mx-auto shadow-sm">
               <Phone className="w-6 h-6 animate-pulse text-[#2563EB]" />
             </div>
-            <h3 className="text-xl font-black text-[#4C1D95]">Instant Flight & Resort Booking</h3>
+            <h3 className="text-xl font-black text-[#4C1D95]">Instant Flight Booking</h3>
             <p className="text-xs text-black font-medium">
               Get published & unpublished fare discounts to {dest.name} by calling our 24/7 travel desk.
             </p>

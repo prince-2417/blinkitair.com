@@ -99,7 +99,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">1. Information Collection & Usage</h3>
                 <p className="text-black">
-                  Blinkit Air collects personal information such as full name, email address, contact phone number, and passport details strictly for processing flight tickets, hotel vouchers, car rentals, and tour reservations.
+                  Blinkit Air collects personal information such as full name, email address, contact phone number, and passport details strictly for processing flight tickets, car rentals, and tour reservations.
                 </p>
               </section>
 
@@ -113,7 +113,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">3. Third-Party Partners</h3>
                 <p className="text-black">
-                  To fulfill travel arrangements, necessary booking data is transmitted securely to airline operators, hotel vendors, and ground-transfer providers.
+                  To fulfill travel arrangements, necessary booking data is transmitted securely to airline operators and ground-transfer providers.
                 </p>
               </section>
             </div>
@@ -139,7 +139,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">2. Fares & Price Accuracy</h3>
                 <p className="text-black">
-                  Airfares and resort package rates are dynamic and subject to seat inventory availability until full payment is authorized and electronic tickets are issued.
+                  Airfares are dynamic and subject to seat inventory availability until full payment is authorized and electronic tickets are issued.
                 </p>
               </section>
             </div>
@@ -191,7 +191,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">2. Airline Supplier Rules</h3>
                 <p className="text-black">
-                  Supplier cancellation fees, non-refundable fare restrictions, and voucher credit terms are established directly by operating airline carriers and resort properties.
+                  Supplier cancellation fees and non-refundable fare restrictions are established directly by operating airline carriers.
                 </p>
               </section>
             </div>
@@ -262,7 +262,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">1. Partner Affiliations</h3>
                 <p className="text-black">
-                  Blinkit Air may receive commercial compensation or referral commissions from airline partners, hotel networks, and car-rental providers featured across our comparison pages.
+                  Blinkit Air may receive commercial compensation or referral commissions from airline partners and car-rental providers featured across our comparison pages.
                 </p>
               </section>
             </div>

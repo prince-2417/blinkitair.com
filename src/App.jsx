@@ -14,7 +14,6 @@ import Blogs from './pages/Blogs';
 import BlogDetail from './pages/BlogDetail';
 import SearchResults from './pages/SearchResults';
 import CarRentalsPage from './pages/CarRentalsPage';
-import HolidayPackagesPage from './pages/HolidayPackagesPage';
 import CustomerSupport from './pages/CustomerSupport';
 import LegalPolicy from './pages/LegalPolicy';
 
@@ -38,7 +37,6 @@ function App() {
             <Route path="/flights" element={<SearchResults />} />
             <Route path="/search-results" element={<SearchResults />} />
             <Route path="/car-rentals" element={<CarRentalsPage />} />
-            <Route path="/packages" element={<HolidayPackagesPage />} />
             <Route path="/contact" element={<CustomerSupport />} />
             <Route path="/support" element={<CustomerSupport />} />
             

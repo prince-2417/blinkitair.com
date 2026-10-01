@@ -7,7 +7,7 @@ export default function CustomerSupport() {
   const [openFaq, setOpenFaq] = useState(0);
 
   const faqs = [
-    { q: 'How do I book a flight or holiday package over the phone?', a: 'Simply call our 24/7 hotline at +x-xxx-xxx-xxxx or +x-xxx-xxx-xxxx. Our Blinkit Air travel team will help you compare options and complete your booking request.' },
+    { q: 'How do I book a flight over the phone?', a: 'Simply call our 24/7 hotline at +x-xxx-xxx-xxxx or +x-xxx-xxx-xxxx. Our Blinkit Air travel team will help you compare options and complete your booking request.' },
     { q: 'What is your refund and date change policy?', a: 'Date change and cancellation rules depend on individual airline fare conditions. Flexible fares booked through our hotline include 24-hour penalty-free cancellation. Call our support desk for instant adjustments.' },
     { q: 'Do I need a visa for my trip?', a: 'Visa requirements depend on your destination, nationality and transit route. Check official government guidance before booking, or contact our team for general travel-planning support.' },
     { q: 'What payment methods do you accept?', a: 'We accept all major debit and credit cards (Visa, MasterCard, American Express, Discover) as well as PayPal and direct bank transfers.' }
@@ -34,7 +34,7 @@ export default function CustomerSupport() {
           </h1>
 
           <p className="text-[#581C87] max-w-3xl mx-auto text-base sm:text-xl font-medium leading-relaxed">
-            Need urgent assistance with a flight booking, date change, resort reservation, or emergency cancellation? Speak directly with an expert travel agent.
+            Need urgent assistance with a flight booking, date change, or emergency cancellation? Speak directly with an expert travel agent.
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-[#7E22CE]">
@@ -62,7 +62,7 @@ export default function CustomerSupport() {
             </span>
             <h2 className="text-3xl font-black text-[#4C1D95]">+x-xxx-xxx-xxxx</h2>
             <p className="text-xs text-[#581C87] font-medium">
-              Toll-free 24/7 line for immediate flight bookings, resort inquiries, fare comparisons, and urgent date changes.
+              Toll-free 24/7 line for immediate flight bookings, fare comparisons, and urgent date changes.
             </p>
           </div>
           <a 
@@ -81,7 +81,7 @@ export default function CustomerSupport() {
             </span>
             <h2 className="text-3xl font-black text-[#4C1D95]">+x-xxx-xxx-xxxx</h2>
             <p className="text-xs text-[#581C87] font-medium">
-              Direct agent line for package customization, group travel discounts, and billing support.
+              Direct agent line for group travel discounts and billing support.
             </p>
           </div>
           <a 
@@ -159,7 +159,6 @@ export default function CustomerSupport() {
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#7E22CE]"
                 >
                   <option value="Flight Reservation">New Flight Reservation</option>
-                  <option value="Hotel Booking">Resort / Hotel Package</option>
                   <option value="Date Change">Flight Change / Cancellation</option>
                   <option value="General Inquiry">General Travel Information</option>
                 </select>
@@ -170,7 +169,7 @@ export default function CustomerSupport() {
                 <textarea 
                   rows={4}
                   required
-                  placeholder="Tell us your origin city, travel dates, and preferred airlines or resorts..."
+                  placeholder="Tell us your origin city, travel dates, and preferred airlines..."
                   value={formData.message}
                   onChange={(e) => setFormData({...formData, message: e.target.value})}
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-[#7E22CE]"

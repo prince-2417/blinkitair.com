@@ -1,4 +1,4 @@
-// Mock Data for Seychelles Getaway / BlinkitAir
+// Mock data for Blinkit Air
 
 export const DESTINATIONS = [
   {
@@ -12,8 +12,6 @@ export const DESTINATIONS = [
     bestTime: 'October to May (Optimal diving & calm seas)',
     flightConnectivity: 'Daily inter-island ferries & helicopter shuttles from Mahé & Praslin',
     category: 'Beaches & Relaxation',
-    resortsCount: 18,
-    avgPrice: '$180/night',
     topAttractions: [
       { name: 'Anse Source d\'Argent', desc: 'World famous beach framed by gigantic granite rock formations.' },
       { name: 'Veuve Reserve', desc: 'Protected sanctuary of the endangered Seychelles Black Flycatcher.' },
@@ -24,15 +22,13 @@ export const DESTINATIONS = [
     id: 'praslin',
     name: 'Praslin Island',
     tagline: 'Home of the legendary Coco de Mer & Vallée de Mai',
-    description: 'Praslin is famous for the UNESCO World Heritage Vallée de Mai palm forest, pristine ivory sands of Anse Lazio, and world-class luxury golf resorts.',
+    description: 'Praslin is famous for the UNESCO World Heritage Vallée de Mai palm forest, pristine ivory sands of Anse Lazio, and an acclaimed coastal golf course.',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
     heroImage: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=1600&q=80',
     highlights: ['Vallée de Mai UNESCO Site', 'Anse Lazio Beach', 'Anse Georgette', 'Lemuria Golf Course'],
     bestTime: 'Year-round (Best snorkeling March-May & Sept-Nov)',
     flightConnectivity: '15-min Air Seychelles scenic flights from Mahé International Airport',
     category: 'Nature & Wildlife',
-    resortsCount: 26,
-    avgPrice: '$240/night',
     topAttractions: [
       { name: 'Vallée de Mai Nature Reserve', desc: 'Prehistoric forest harboring the indigenous giant Coco de Mer palm.' },
       { name: 'Anse Lazio', desc: 'Consistently ranked among the top 10 beaches on Earth.' },
@@ -50,8 +46,6 @@ export const DESTINATIONS = [
     bestTime: 'April, May, October, November (Calm wind conditions)',
     flightConnectivity: 'Seychelles International Airport (SEZ) main hub with direct flights worldwide',
     category: 'Culture & Shopping',
-    resortsCount: 45,
-    avgPrice: '$210/night',
     topAttractions: [
       { name: 'Victoria Clocktower & Market', desc: 'Bustling capital market filled with fresh spices, local fruits, and souvenirs.' },
       { name: 'Beau Vallon Bay', desc: 'Lively beach strip offering water sports, night markets, and seafood dining.' },
@@ -61,16 +55,14 @@ export const DESTINATIONS = [
   {
     id: 'silhouette',
     name: 'Silhouette Island',
-    tagline: 'Wild rainforest peaks & luxury eco-resorts',
+    tagline: 'Wild rainforest peaks & pristine coral reefs',
     description: 'The third-largest granite island, Silhouette is a protected national park boasting ancient virgin rainforest, rare endemic flora, and pristine coral reefs.',
     image: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1200&q=80',
     heroImage: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1600&q=80',
-    highlights: ['Mount Dauban Trail', 'Hilton Labriz Resort', 'Giant Tortoise Sanctuary', 'Snorkeling Reefs'],
+    highlights: ['Mount Dauban Trail', 'Giant Tortoise Sanctuary', 'Snorkeling Reefs', 'Coral Gardens'],
     bestTime: 'May to October',
     flightConnectivity: '45-minute luxury catamaran boat transfer or 15-minute helicopter flight from Mahé',
-    category: 'Luxury Resorts',
-    resortsCount: 3,
-    avgPrice: '$450/night',
+    category: 'Island Living',
     topAttractions: [
       { name: 'Mount Dauban Peak', desc: 'Reaching 774 meters enveloped in misty tropical cloud forest.' },
       { name: 'Anse Mondon Hike', desc: 'Secluded cove perfect for solitary snorkeling adventures.' }
@@ -79,16 +71,14 @@ export const DESTINATIONS = [
   {
     id: 'eden-island',
     name: 'Eden Island',
-    tagline: 'Modern luxury marina living & private island villas',
-    description: 'A prestige artificial island connected to Mahé by a bridge, offering luxury private villas, deep-water yacht marina, shopping plazas, and fine dining waterfront restaurants.',
+    tagline: 'Modern marina living & island waterfronts',
+    description: 'A prestige artificial island connected to Mahé by a bridge, featuring a deep-water yacht marina, shopping plazas, and fine dining waterfront restaurants.',
     image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
     heroImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80',
     highlights: ['Deep Water Marina', 'Eden Plaza Shopping', 'Private Beach Clubs', 'Waterfront Dining'],
     bestTime: 'Year-round',
     flightConnectivity: '10 minutes drive from Seychelles International Airport (SEZ)',
-    category: 'Luxury Resorts',
-    resortsCount: 12,
-    avgPrice: '$320/night',
+    category: 'Island Living',
     topAttractions: [
       { name: 'Eden Plaza', desc: 'Premier destination for boutiques, bank services, spa, and international dining.' },
       { name: 'Charter Yacht Marina', desc: 'Set sail on private catamarans across the Seychelles archipelago.' }
@@ -105,8 +95,6 @@ export const DESTINATIONS = [
     bestTime: 'May to October (Peak bird nesting season)',
     flightConnectivity: '30-minute charter light aircraft flight from Mahé',
     category: 'Diving & Marine',
-    resortsCount: 1,
-    avgPrice: '$380/night',
     topAttractions: [
       { name: 'Bird Sanctuary Trails', desc: 'Guided nature walks amongst millions of sea birds and hawksbill turtles.' }
     ]
@@ -263,7 +251,7 @@ export const BLOGS = [
   {
     id: 'ultimate-packing-guide-seychelles',
     title: 'The Ultimate Seychelles Packing Guide: What to Bring & What to Leave',
-    excerpt: 'Avoid overpacking! Discover essential items for island hopping, eco-friendly reef-safe sunscreen rules, and dress codes for luxury resorts.',
+    excerpt: 'Avoid overpacking! Discover essential items for island hopping and eco-friendly reef-safe sunscreen rules.',
     category: 'Packing Guides',
     readTime: '5 min read',
     date: 'Sept 10, 2026',
@@ -271,7 +259,7 @@ export const BLOGS = [
     authorRole: 'Travel Logistics Expert',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
     content: `
-      <p class="lead">Packing for tropical paradise requires a balance between lightweight beachwear, island hiking gear, and smart casual attire for evening resort dining.</p>
+      <p class="lead">Packing for tropical paradise requires a balance between lightweight beachwear and island hiking gear.</p>
       
       <h3>Essential Packing Items:</h3>
       <ul>
@@ -285,7 +273,7 @@ export const BLOGS = [
   {
     id: 'island-hopping-guide-seychelles',
     title: 'How to Plan the Perfect Seychelles Island Hopping Itinerary',
-    excerpt: 'Step-by-step guide to combining Mahé, Praslin, and La Digue into a seamless 7-day or 10-day tropical getaway.',
+    excerpt: 'Step-by-step guide to combining Mahé, Praslin, and La Digue into a seamless 7-day or 10-day island trip.',
     category: 'Island Hopping',
     readTime: '8 min read',
     date: 'Aug 28, 2026',
@@ -293,7 +281,7 @@ export const BLOGS = [
     authorRole: 'Destination Planner',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
     content: `
-      <p class="lead">Why stay on just one island when Seychelles offers 115 unique islands to explore? An island-hopping itinerary allows you to experience vibrant city culture, prehistoric forests, and remote luxury beaches in a single trip.</p>
+      <p class="lead">Why visit just one island when Seychelles offers 115 unique islands to explore? An island-hopping itinerary allows you to experience vibrant city culture, prehistoric forests, and remote luxury beaches in a single trip.</p>
       
       <h3>Recommended 7-Day Itinerary:</h3>
       <ul>
@@ -425,53 +413,6 @@ export const FLIGHT_SEARCH_RESULTS = [
   }
 ];
 
-export const HOTELS = [
-  {
-    id: 'four-seasons-mahe',
-    name: 'Four Seasons Resort Seychelles',
-    location: 'Petite Anse, Mahé Island',
-    rating: 5,
-    stars: '5 Star Luxury',
-    pricePerNight: 850,
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
-    amenities: ['Private Plunge Pool', 'Hilltop Spa', 'Oceanfront Dining', 'Butler Service', 'Kids Club'],
-    highlights: 'Treehouse-style luxury villas nestled in lush tropical hillside facing Petite Anse beach.'
-  },
-  {
-    id: 'raffles-praslin',
-    name: 'Raffles Seychelles',
-    location: 'Anse Takamaka, Praslin Island',
-    rating: 5,
-    stars: '5 Star Resort',
-    pricePerNight: 720,
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
-    amenities: ['Infiniti Pool', 'Raffles Spa', 'Private Pavilion Dining', 'Direct Beach Access'],
-    highlights: 'Panoramic luxury villas with private infinity pools close to Curieuse Island and Vallée de Mai.'
-  },
-  {
-    id: 'constance-ephelia',
-    name: 'Constance Ephelia Resort',
-    location: 'Port Launay, Mahé Island',
-    rating: 4.8,
-    stars: '5 Star Family Resort',
-    pricePerNight: 460,
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
-    amenities: ['5 Restaurants', 'Zip-lining Park', 'Mangrove Kayaking', 'Largest Spa in Seychelles'],
-    highlights: 'Spans 120 hectares of lush tropical greenery overlooking two idyllic marine park beaches.'
-  },
-  {
-    id: 'domaines-de-lorangerie',
-    name: 'Le Domaine de L\'Orangeraie Resort & Spa',
-    location: 'Anse Severe, La Digue Island',
-    rating: 4.9,
-    stars: 'Boutique Luxury',
-    pricePerNight: 510,
-    image: 'https://images.unsplash.com/photo-1589553460732-57ef51160601?auto=format&fit=crop&w=1200&q=80',
-    amenities: ['Barefoot Luxury Villas', 'Zen Lagoon Pool', 'Lagoon Spa', 'Free Bicycles'],
-    highlights: 'Romantic sanctuary designed with natural island timber and Zen elegance on La Digue.'
-  }
-];
-
 export const CAR_RENTALS = [
   {
     id: 'car-compact',
@@ -511,56 +452,3 @@ export const CAR_RENTALS = [
   }
 ];
 
-export const HOLIDAY_PACKAGES = [
-  {
-    id: 'pkg-honeymoon-luxury',
-    title: 'Seychelles Honeymoon & Luxury Escape',
-    duration: '7 Days / 6 Nights',
-    price: 1899,
-    originalPrice: 2450,
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
-    destinationsIncluded: ['Mahé (3 Nights)', 'Praslin (3 Nights)', 'Day trip to La Digue'],
-    inclusions: [
-      '5-Star Oceanfront Villa Resort Accommodation',
-      'Daily Breakfast & Gourmet Candlelight Dinner',
-      'Inter-island Scenic Flights & Catamaran Transfers',
-      'Sunset Sailing Cruise with Champagne',
-      '24/7 Private Concierge Support'
-    ],
-    badge: 'Popular for Couples'
-  },
-  {
-    id: 'pkg-island-hopper-adventure',
-    title: 'Ultimate 3-Island Hopper Explorer',
-    duration: '10 Days / 9 Nights',
-    price: 2399,
-    originalPrice: 2990,
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
-    destinationsIncluded: ['Mahé (3 Nights)', 'Praslin (3 Nights)', 'La Digue (3 Nights)'],
-    inclusions: [
-      'Boutique Resort & Beach Lodge Stays',
-      'Vallée de Mai UNESCO Guided Tour',
-      'La Digue Bicycle Rental & Anse Source d\'Argent Entry',
-      'All Ferry & Domestic Flight Connections',
-      'Daily Buffet Breakfasts'
-    ],
-    badge: 'Best Seller'
-  },
-  {
-    id: 'pkg-family-paradise',
-    title: 'Seychelles Family Tropical Paradise',
-    duration: '8 Days / 7 Nights',
-    price: 1650,
-    originalPrice: 2100,
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
-    destinationsIncluded: ['Mahé Island Luxury Family Villa'],
-    inclusions: [
-      '2-Bedroom Ocean Suite Accommodation',
-      'Curieuse Island Giant Tortoise Sanctuary Excursion',
-      'Family Kayaking & Glass Bottom Boat Tour',
-      'Kids Club Access & Complimentary Water Sports',
-      'Private Airport Transfers'
-    ],
-    badge: 'Family Special'
-  }
-];

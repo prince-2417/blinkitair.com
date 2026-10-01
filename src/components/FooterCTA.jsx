@@ -15,7 +15,7 @@ export default function FooterCTA() {
         </h2>
 
         <p className="text-black text-base sm:text-lg max-w-2xl mx-auto leading-relaxed font-semibold">
-          Unlock cheap flight deals, hotel discounts, and luxury vacation packages with 24/7 expert travel support.
+          Unlock cheap flight deals and car-rental offers with 24/7 expert travel support.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">

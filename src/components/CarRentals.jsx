@@ -6,7 +6,7 @@ export default function CarRentals() {
     {
       icon: <MapPin className="w-8 h-8 text-[#2563EB]" />,
       title: "Flexible Pick-up & Drop-off",
-      desc: "Choose convenient airport terminals, ferry harbors, or downtown hotel hubs with 24-hour drop-off flexibility."
+      desc: "Choose convenient airport terminals, ferry harbors, or downtown locations with 24-hour drop-off flexibility."
     },
     {
       icon: <DollarSign className="w-8 h-8 text-[#2563EB]" />,

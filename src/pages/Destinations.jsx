@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DESTINATIONS } from '../data/mockData';
-import { MapPin, ArrowRight, Sun, Compass, Sparkles, Phone, Hotel, Calendar, Search } from 'lucide-react';
+import { MapPin, ArrowRight, Sun, Compass, Sparkles, Phone, Calendar } from 'lucide-react';
 
 export default function Destinations() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  const categories = ['All', 'Beaches & Relaxation', 'Nature & Wildlife', 'Culture & Shopping', 'Luxury Resorts', 'Diving & Marine'];
+  const categories = ['All', 'Beaches & Relaxation', 'Nature & Wildlife', 'Culture & Shopping', 'Island Living', 'Diving & Marine'];
 
   const filteredDestinations = selectedCategory === 'All' 
     ? DESTINATIONS 
@@ -25,20 +25,17 @@ export default function Destinations() {
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-[#4C1D95] leading-none">
             Discover Your Next <br className="hidden sm:inline" />
-            <span className="text-[#7E22CE]">Perfect Getaway</span>
+            <span className="text-[#7E22CE]">Next Journey</span>
           </h1>
 
           <p className="text-black max-w-3xl mx-auto text-base sm:text-xl font-medium leading-relaxed">
-            Browse destination ideas, stays and travel experiences to help you plan a trip that suits your style.
+            Browse destination ideas and travel experiences to help you plan a trip that suits your style.
           </p>
 
           {/* Key Quick Stats */}
           <div className="flex flex-wrap justify-center items-center gap-6 pt-4 text-xs font-bold text-[#7E22CE]">
             <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
               <MapPin className="w-4 h-4 text-[#2563EB]" /> Destination Guides
-            </span>
-            <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
-              <Hotel className="w-4 h-4 text-[#2563EB]" /> Hotels & Resorts
             </span>
             <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
               <Sun className="w-4 h-4 text-[#2563EB]" /> Year-Round Sunshine
@@ -107,10 +104,6 @@ export default function Destinations() {
                 {/* Specs & Highlights */}
                 <div className="space-y-2 pt-2 border-t border-gray-100 text-xs">
                   <div className="flex items-center justify-between text-[#4C1D95] font-semibold">
-                    <span className="flex items-center gap-1"><Hotel className="w-3.5 h-3.5 text-[#2563EB]" /> Resorts:</span>
-                    <span className="font-extrabold">{dest.resortsCount}+ Villas & Hotels</span>
-                  </div>
-                  <div className="flex items-center justify-between text-[#4C1D95] font-semibold">
                     <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5 text-[#2563EB]" /> Best Season:</span>
                     <span className="font-extrabold text-[#7E22CE]">{dest.bestTime.split(' ')[0]} {dest.bestTime.split(' ')[1]}</span>
                   </div>
@@ -128,7 +121,7 @@ export default function Destinations() {
                 {/* Action Button */}
                 <div className="pt-4 flex items-center justify-between border-t border-gray-100">
                   <div>
-                    <span className="text-[10px] uppercase tracking-wider text-gray-400 font-bold block">Avg Stay</span>
+                    <span className="text-[10px] uppercase tracking-wider text-gray-400 font-bold block">Travel Budget</span>
                     <span className="text-base font-black text-[#4C1D95]">{dest.avgPrice}</span>
                   </div>
                   <Link
@@ -153,7 +146,7 @@ export default function Destinations() {
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-[#4C1D95]">Speak with a Blinkit Air Travel Specialist</h2>
             <p className="text-xs sm:text-sm text-black max-w-xl font-medium">
-              Get help with flight options, hotel stays and travel planning from our team, available 24/7.
+              Get help with flight options, car rentals and travel planning from our team, available 24/7.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">

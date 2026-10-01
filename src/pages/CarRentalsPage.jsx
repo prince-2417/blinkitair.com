@@ -28,7 +28,7 @@ export default function CarRentalsPage() {
 
           <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-[#7E22CE]">
             <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
-              <MapPin className="w-4 h-4 text-[#7E22CE]" /> Airport & Resort Delivery
+              <MapPin className="w-4 h-4 text-[#7E22CE]" /> Airport & Downtown Delivery
             </span>
             <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
               <Sparkles className="w-4 h-4 text-[#7E22CE]" /> Unlimited Mileage
@@ -118,7 +118,7 @@ export default function CarRentalsPage() {
                 <select className="w-full px-3.5 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:border-[#7E22CE]">
                   <option>Mahé Island Airport (SEZ)</option>
                   <option>Praslin Airport (PRI)</option>
-                  <option>Hotel Delivery</option>
+                  <option>Downtown Delivery</option>
                 </select>
                 <button type="submit" className="w-full bg-[#7E22CE] hover:bg-[#581C87] text-white font-black py-3 rounded-xl shadow-md">
                   Confirm Reservation Request
