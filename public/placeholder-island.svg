@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Island placeholder</title>
+  <desc id="desc">A scenic tropical island illustration used as a fallback image.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7DD3FC" />
+      <stop offset="45%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="930" cy="150" r="72" fill="#FDE68A" opacity="0.9"/>
+  <path d="M0 430 C180 360, 280 350, 420 420 S720 500, 1200 420 L1200 800 L0 800 Z" fill="url(#sea)"/>
+  <path d="M130 520 L320 300 L530 520 Z" fill="#166534" opacity="0.9"/>
+  <path d="M520 520 L720 290 L940 520 Z" fill="#15803D" opacity="0.9"/>
+  <path d="M610 520 L790 370 L1030 520 Z" fill="#22C55E" opacity="0.8"/>
+  <path d="M300 520 C450 480, 600 470, 780 520 L780 800 L300 800 Z" fill="#14532D" opacity="0.75"/>
+  <path d="M350 535 C470 510, 580 500, 710 535" stroke="#E0F2FE" stroke-width="10" fill="none" opacity="0.7"/>
+  <rect x="0" y="0" width="1200" height="800" fill="none" stroke="#E2E8F0" stroke-width="8" opacity="0.3"/>
+</svg>

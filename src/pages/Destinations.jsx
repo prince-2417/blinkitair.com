@@ -5,12 +5,18 @@ import { MapPin, ArrowRight, Sun, Compass, Sparkles, Phone, Calendar } from 'luc
 
 export default function Destinations() {
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const fallbackImage = '/placeholder-island.svg';
 
   const categories = ['All', 'Beaches & Relaxation', 'Nature & Wildlife', 'Culture & Shopping', 'Island Living', 'Diving & Marine'];
 
   const filteredDestinations = selectedCategory === 'All' 
     ? DESTINATIONS 
     : DESTINATIONS.filter(d => d.category === selectedCategory);
+
+  const handleImageError = (event) => {
+    event.currentTarget.src = fallbackImage;
+    event.currentTarget.onerror = null;
+  };
 
   return (
     <div className="bg-[#FAF5FF] min-h-screen pb-16">
@@ -79,8 +85,9 @@ export default function Destinations() {
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src={dest.image} 
+                  src={dest.image || fallbackImage} 
                   alt={dest.name} 
+                  onError={handleImageError}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
