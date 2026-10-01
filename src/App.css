@@ -7,3 +7,23 @@
 .animate-pulse-glow {
   animation: pulseGlow 3s infinite ease-in-out;
 }
+
+.car-rentals-hero {
+  background-image: url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80px rgba(15, 23, 42, 0.6);
+}
+
+.car-rentals-title {
+  text-shadow: 0 8px 24px rgba(15, 23, 42, 0.9);
+  letter-spacing: -0.06em;
+}
+
+@media (max-width: 640px) {
+  .car-rentals-title {
+    line-height: 0.95;
+    max-width: 15ch;
+    margin: 0 auto;
+  }
+}

@@ -10,31 +10,32 @@ export default function CarRentalsPage() {
     <div className="bg-[#FAF5FF] min-h-screen pb-16">
       
       {/* FULL HERO SECTION */}
-      <section className="relative text-[#4C1D95] overflow-hidden py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-b border-[#C084FC]/30" style={{backgroundImage: "url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=80')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
-        <div className="absolute inset-0 bg-black/50"></div>
+      <section className="car-rentals-hero relative overflow-hidden py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-b border-[#C084FC]/30">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(59,130,246,0.25),_transparent_55%)]"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center space-y-6">
-          <div className="inline-flex items-center gap-2 bg-[#7E22CE] text-white px-4 py-1.5 rounded-full text-xs font-black tracking-widest uppercase shadow-md">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-white px-4 py-1.5 rounded-full text-xs font-black tracking-widest uppercase shadow-lg shadow-blue-900/30">
             <Car className="w-4 h-4 text-white" /> Blinkit Air Car Rentals
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-[#4C1D95] leading-none">
+          <h1 className="car-rentals-title text-4xl sm:text-6xl lg:text-[7rem] font-black tracking-[-0.06em] leading-[0.9] text-white">
             Explore more with <br className="hidden sm:inline" />
-            <span className="text-[#7E22CE]">Your Own Island Pace</span>
+            <span className="text-white/95">Your Own Island Pace</span>
           </h1>
 
-          <p className="text-[#581C87] max-w-3xl mx-auto text-base sm:text-xl font-medium leading-relaxed">
+          <p className="max-w-3xl mx-auto text-base sm:text-xl font-medium leading-relaxed text-white/90 drop-shadow-sm">
             Automatic transmission cars, 4x4 compact SUVs, and soft-top convertibles with free airport delivery on Mahé & Praslin. Zero hidden drop-off fees.
           </p>
 
-          <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-[#7E22CE]">
-            <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
-              <MapPin className="w-4 h-4 text-[#7E22CE]" /> Airport & Downtown Delivery
+          <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-[#E2E8F0]">
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+              <MapPin className="w-4 h-4 text-white" /> Airport & Downtown Delivery
             </span>
-            <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
-              <Sparkles className="w-4 h-4 text-[#7E22CE]" /> Unlimited Mileage
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+              <Sparkles className="w-4 h-4 text-white" /> Unlimited Mileage
             </span>
-            <span className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C084FC]/30 shadow-sm">
-              <ShieldCheck className="w-4 h-4 text-[#7E22CE]" /> Full CDW Insurance
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+              <ShieldCheck className="w-4 h-4 text-white" /> Full CDW Insurance
             </span>
           </div>
         </div>
