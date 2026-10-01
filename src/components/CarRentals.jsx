@@ -5,18 +5,18 @@ export default function CarRentals() {
   const cards = [
     {
       icon: <MapPin className="w-8 h-8 text-[#2563EB]" />,
-      title: "Flexible Pick-up & Drop-off",
-      desc: "Choose convenient airport terminals, ferry harbors, or downtown locations with 24-hour drop-off flexibility."
+      title: "Flexible Pickup and Drop-off",
+      desc: "Choose convenient airport terminals, ferry ports, or downtown locations with 24-hour drop-off flexibility."
     },
     {
       icon: <DollarSign className="w-8 h-8 text-[#2563EB]" />,
       title: "Clear Pricing, No Hidden Fees",
-      desc: "Upfront rate quotes including comprehensive basic collision coverage, unlimited mileage, and local taxes included."
+      desc: "Get upfront quotes with collision coverage, unlimited mileage, and all local taxes included."
     },
     {
       icon: <Layers className="w-8 h-8 text-[#2563EB]" />,
-      title: "Variety of Vehicles & Flexible Dates",
-      desc: "From compact fuel-efficient sedans and convertible sports cars to 4x4 island SUVs and luxury passenger vans."
+      title: "Wide Vehicle Choice and Flexible Dates",
+      desc: "Choose from compact sedans, convertibles, island SUVs, and spacious passenger vans for your trip."
     }
   ];
 
@@ -28,13 +28,13 @@ export default function CarRentals() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#7E22CE] text-xs font-bold uppercase tracking-wider border border-[#C084FC]/40 shadow-sm">
             <Car className="w-3.5 h-3.5 text-[#2563EB]" />
-            <span>On-Demand Ground Mobility</span>
+            <span>Ground Transportation</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-[#2563EB] tracking-tight">
-            Car Rental Deals to <span className="text-[#2563EB]">Match Your Itinerary</span>
+            Car Rentals That Fit <span className="text-[#2563EB]">Your Travel Plans</span>
           </h2>
           <p className="text-black text-base font-semibold">
-            Rent cars from top global providers at competitive rates with transparent terms and flexible pick-up locations.
+            Rent from trusted providers at competitive rates with transparent terms and flexible pickup locations.
           </p>
         </div>
 

@@ -27,14 +27,14 @@ export default function CarRentalsPage() {
             Automatic transmission cars, 4x4 compact SUVs, and soft-top convertibles with free airport delivery on Mahé & Praslin. Zero hidden drop-off fees.
           </p>
 
-          <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-[#E2E8F0]">
-            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+          <div className="flex flex-wrap justify-center items-center gap-4 pt-4 text-xs font-bold text-white">
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm text-white">
               <MapPin className="w-4 h-4 text-white" /> Airport & Downtown Delivery
             </span>
-            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm text-white">
               <Sparkles className="w-4 h-4 text-white" /> Unlimited Mileage
             </span>
-            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm">
+            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20 shadow-sm backdrop-blur-sm text-white">
               <ShieldCheck className="w-4 h-4 text-white" /> Full CDW Insurance
             </span>
           </div>
