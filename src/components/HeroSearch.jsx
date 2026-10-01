@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faPlane, 
@@ -19,6 +19,16 @@ export default function HeroSearch() {
   const [returnDate, setReturnDate] = useState('2026-10-25');
   const [travelers, setTravelers] = useState('2 Adults');
   const [cabinClass, setCabinClass] = useState('Economy');
+  const departDateRef = useRef(null);
+  const returnDateRef = useRef(null);
+
+  const openDatePicker = (ref) => {
+    if (!ref?.current) return;
+    ref.current.focus();
+    if (typeof ref.current.showPicker === 'function') {
+      ref.current.showPicker();
+    }
+  };
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
@@ -145,30 +155,42 @@ export default function HeroSearch() {
                   </div>
 
                   {/* Depart Date */}
-                  <div className="bg-[#FAF5FF] p-3.5 rounded-2xl border border-[#C084FC]/30 hover:border-[#2563EB] transition-all">
+                  <div
+                    className="bg-[#FAF5FF] p-3.5 rounded-2xl border border-[#C084FC]/30 hover:border-[#2563EB] transition-all cursor-pointer"
+                    onClick={() => openDatePicker(departDateRef)}
+                  >
                     <label className="block text-[10px] font-extrabold text-[#2563EB] uppercase tracking-wider mb-1">Depart Date</label>
                     <div className="flex items-center gap-2">
                       <FontAwesomeIcon icon={faCalendarAlt} className="text-[#2563EB] text-lg w-5 flex-shrink-0" />
                       <input 
+                        ref={departDateRef}
                         type="date" 
                         value={departDate}
                         onChange={(e) => setDepartDate(e.target.value)}
-                        className="ios-date-input flex-1 min-w-0 bg-transparent font-bold text-xs text-[#4C1D95] text-left focus:outline-none"
+                        onClick={(e) => e.stopPropagation()}
+                        className="ios-date-input flex-1 min-w-0 bg-transparent font-bold text-xs text-[#4C1D95] text-left focus:outline-none cursor-pointer"
                       />
                     </div>
                   </div>
 
                   {/* Return Date */}
-                  <div className="bg-[#FAF5FF] p-3.5 rounded-2xl border border-[#C084FC]/30 hover:border-[#2563EB] transition-all">
+                  <div
+                    className="bg-[#FAF5FF] p-3.5 rounded-2xl border border-[#C084FC]/30 hover:border-[#2563EB] transition-all cursor-pointer"
+                    onClick={() => {
+                      if (tripType !== 'oneway') openDatePicker(returnDateRef);
+                    }}
+                  >
                     <label className="block text-[10px] font-extrabold text-[#2563EB] uppercase tracking-wider mb-1">Return Date</label>
                     <div className="flex items-center gap-2">
                       <FontAwesomeIcon icon={faCalendarAlt} className="text-[#2563EB] text-lg w-5 flex-shrink-0" />
                       <input 
+                        ref={returnDateRef}
                         type="date" 
                         disabled={tripType === 'oneway'}
                         value={returnDate}
                         onChange={(e) => setReturnDate(e.target.value)}
-                        className="ios-date-input flex-1 min-w-0 bg-transparent font-bold text-xs text-[#4C1D95] text-left focus:outline-none disabled:opacity-40"
+                        onClick={(e) => e.stopPropagation()}
+                        className="ios-date-input flex-1 min-w-0 bg-transparent font-bold text-xs text-[#4C1D95] text-left focus:outline-none disabled:opacity-40 cursor-pointer"
                       />
                     </div>
                   </div>
