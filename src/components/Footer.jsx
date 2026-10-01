@@ -104,7 +104,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center justify-between text-black pt-2 border-t border-[#C084FC]/30">
             <p className="text-black">© 2026 Blinkit Air. All rights reserved.</p>
-            <span className="flex items-center gap-1 font-bold text-black">Made with <Heart className="w-3 h-3 text-[#2563EB] fill-[#2563EB]" /> for global travelers</span>
+            {/* <span className="flex items-center gap-1 font-bold text-black">Made with <Heart className="w-3 h-3 text-[#2563EB] fill-[#2563EB]" /> for global travelers</span> */}
           </div>
         </div>
 
