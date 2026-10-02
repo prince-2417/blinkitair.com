@@ -208,7 +208,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:support@blinkitair.com" className="text-[#2563EB] underline">support@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -362,7 +362,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -416,7 +416,7 @@ export default function LegalPolicy() {
                   To request a refund, please follow these steps:
                 </p>
                 <ol className="list-decimal pl-6 space-y-2 text-black">
-                  <li>Contact Tripyzo customer support at <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a> or <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Contact Tripyzo customer support at <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a> or <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Provide your booking reference number and reason for refund request</li>
                   <li>Our team will review airline policies and advise on eligibility</li>
                   <li>Submit any required documentation (if applicable)</li>
@@ -503,7 +503,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -540,7 +540,7 @@ export default function LegalPolicy() {
               <section className="space-y-3">
                 <h3 className="text-base font-extrabold text-[#4C1D95]">How to Cancel a Booking</h3>
                 <ol className="list-decimal pl-6 space-y-2 text-black">
-                  <li>Contact our customer service team immediately at <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a> or by phone at <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a>.</li>
+                  <li>Contact our customer service team immediately at <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a> or by phone at <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a>.</li>
                   <li>Provide your booking reference number, full name, and details of your itinerary.</li>
                   <li>Our agents will review the airline or travel supplier&apos;s fare rules and advise you on applicable cancellation charges and refund options (if available).</li>
                   <li>Once you confirm the cancellation, we will process it and send you a confirmation email.</li>
@@ -627,7 +627,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -745,7 +745,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -911,7 +911,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -1032,7 +1032,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -1194,7 +1194,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
@@ -1402,7 +1402,7 @@ export default function LegalPolicy() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-black">
                   <li>Email: <a href="mailto:info@blinkitair.com" className="text-[#2563EB] underline">info@blinkitair.com</a></li>
-                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">1-844-572-3292</a></li>
+                  <li>Phone: <a href="tel:+18445723292" className="text-[#2563EB] underline">x-xxx-xxx-xxxx</a></li>
                   <li>Address: 13217 Juliet Way, Frisco, TX 75035, USA</li>
                 </ul>
               </section>
